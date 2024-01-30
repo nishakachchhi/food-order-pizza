@@ -1,0 +1,86 @@
+.footer {
+  background-color: #fde4e4;
+  padding: 4.8rem 0;
+}
+
+.footer-div {
+  display: grid;
+  grid-template-columns: 30fr 20fr 20fr 30fr;
+  gap: 3.6rem 2.4rem;
+}
+
+.footer-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 400;
+  margin-bottom: 1.6rem;
+  display: inline-block;
+}
+
+.footer-text {
+  font-size: 1.6rem;
+  color: #888;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  margin-bottom: 1.2rem;
+  font-weight: 500;
+}
+
+.footer-bold {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 0;
+}
+
+.footer-list {
+  list-style: none;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #808080;
+}
+
+.footer-icon-div {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-icon {
+  font-size: 1.6rem;
+  color: #fff;
+  background-color: #df2020;
+  border-radius: 1.4rem;
+  display: inline-block;
+  padding: 8px;
+  border-radius: 1.8rem;
+  transition: all 0.3s;
+}
+
+.input-form {
+  display: flex;
+}
+
+.input-email {
+  border: none;
+  font-size: 1.6rem;
+  flex-grow: 1;
+  padding: 1rem;
+}
+
+.input-email:focus {
+  outline: none;
+}
+
+.input-btn {
+  font-size: 1.6rem;
+  background-color: #fff;
+  border: 1px solid #fff;
+  padding: 1.2rem;
+  color: #df2020;
+}
+
+::placeholder {
+  font-size: 1.4rem;
+}

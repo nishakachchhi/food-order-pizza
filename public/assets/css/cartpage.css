@@ -1,0 +1,27 @@
+.cart-tabel {
+  display: block;
+  font-size: 1.8rem;
+  border-collapse: collapse;
+  overflow-x: scroll;
+  margin-bottom: 1.6rem;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+  width: 20%;
+}
+
+.cartpage-img {
+  width: 25%;
+}
+
+.empty-cart {
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1.6rem;
+}

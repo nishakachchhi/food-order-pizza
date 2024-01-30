@@ -1,0 +1,137 @@
+.cart {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30%;
+    height: 100vh;
+    background-color: #fff;
+    z-index: 999;
+    padding: 1rem;
+    transform: translateX(30%);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .show-cart .cart {
+    transform: translateX(0);
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+  }
+  
+  .show-cart .overlay {
+    display: block;
+  }
+  
+  .cart-close {
+    background: none;
+    border: none;
+    font-size: 1.6rem;
+    padding: 4px 8px;
+    background-color: #555;
+    color: #fff;
+    border-radius: 50%;
+  }
+  
+  .no-items {
+    font-size: 2.4rem;
+  }
+  
+  .cart-list {
+    margin: 2.4rem 0rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    height: 80vh;
+    overflow-y: scroll;
+  }
+  
+  .cart-item {
+    display: grid;
+    grid-template-columns: 5rem 1fr auto;
+    gap: 1.2rem;
+    border-bottom: 1px solid #555;
+    padding-bottom: 1.6rem;
+  }
+  
+  .cart-item-img {
+    width: 100%;
+    grid-row: 1/3;
+  }
+  .cart-food-name {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .cart-item-summary {
+    display: flex;
+    gap: 5rem;
+  }
+  
+  .cart-price {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #df2020;
+  }
+  
+  .urinary-btn {
+    border: none;
+    background: none;
+    padding: 2px 8px;
+    font-size: 1.6rem;
+    background-color: #fde4e4;
+  }
+  
+  .default-quantity {
+    display: inline-block;
+    background: #fde4e4;
+    font-size: 1.5rem;
+    padding: 6px 12px;
+  }
+  
+  .cart-bottom {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background-color: #df2020;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.4rem 1rem;
+  }
+  
+  .cart-subtotal {
+    font-size: 1.8rem;
+    color: #fff;
+  }
+  
+  .cart-total-price {
+    font-size: 2.4rem;
+    font-weight: bold;
+  }
+  
+  .check-out-btn {
+    padding: 0.8rem 1.6rem;
+    font-size: 1.6rem;
+    border: none;
+    color: #000;
+    background-color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+  }
+  

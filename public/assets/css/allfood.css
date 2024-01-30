@@ -1,0 +1,35 @@
+.search-field {
+  outline: none;
+  padding: 0.8rem 1.6rem;
+  margin-bottom: 1.6rem;
+  font-size: 1.6rem;
+}
+
+.paginationBttns {
+  width: 80%;
+  height: 4rem;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 0.5rem;
+  list-style: none;
+  margin-top: 3rem;
+}
+
+.paginationBttns a {
+  padding: 0.5rem 1.3rem;
+  background: #212245;
+  color: #fff !important;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: 0.5rem;
+  font-size: 1.6rem;
+}
+
+.paginationBttns a:hover {
+  background: #df2020;
+}

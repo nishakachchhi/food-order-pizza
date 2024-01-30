@@ -1,0 +1,12 @@
+.action-text {
+  font-size: 2rem;
+  margin-bottom: 1.6rem;
+}
+
+.bill-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
